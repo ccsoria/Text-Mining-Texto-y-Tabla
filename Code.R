@@ -21,7 +21,7 @@ lapply(paquetes, library, character.only = TRUE)
 rm(list=ls())
 
 # Carpeta.
-input <- "C:/Users/Cesar/Desktop/Investigaciones/Mesas de dialogo/Productos/"
+input <- ""
 
 
 ################################################################################
@@ -31,7 +31,7 @@ input <- "C:/Users/Cesar/Desktop/Investigaciones/Mesas de dialogo/Productos/"
 # dividir en dos el PDF en texto y tabla. Esto permite una mejor manipulacion de datos.
 
 # Archivo
-acta <- paste0(input,"Producto 1 - Acta_Formato Sugerido.pdf")
+acta <- paste0(input,"File.pdf")
 # Nuevos archivos
 acta_1 <- paste0(input,"acta_1.pdf")
 acta_2 <- paste0(input,"acta_2.pdf")
